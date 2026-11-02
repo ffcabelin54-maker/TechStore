@@ -1,0 +1,90 @@
+body{
+  background-color:#101014;
+  color:#e6e6e6;
+  font-family:georgia;
+  background-image: url("Computador.jpeg");
+background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+h1{
+  color:#00a8ff;
+  text-align:center;
+  padding:10px;
+  border-bottom:2px solid #00a8ff;
+  border-radius:50px;
+  
+}
+h2{
+
+  text-align:center;
+}
+.produto{
+border:2px solid #00a8ff;
+  border-radius:50px;
+  background-color:#1a1a24;
+  color:#e6e6e6;
+  padding:20px;
+  margin:30px;
+  text-align:center;
+  box-shadow:0 3px 10px #00a8ff;
+  transition:0.3s;
+  filter:brightness(1.1);
+  
+}
+
+.produto:hover{
+
+  transform:scale(1.07);
+}
+.produto h3{
+
+  color:#00a8ff;
+  font-size:20px;
+
+}
+.produto p{
+
+  filter:brightness(1.5);
+}
+
+footer{
+
+border-top:2px solid #00a8ff;
+  border-radius:50px;
+  text-align:center;
+  color:#00a8ff;
+  padding:20px;
+  margin:20px;
+}
+.menu a{
+
+  text-decoration:none;
+  color:#00a8ff;
+  filter:brightness(1.0);
+  
+}
+.menu{
+  display:flex;
+  flex-direction:inline;
+  gap:13px;
+}
+
+.produto img{
+
+  width:100%;
+  height:350px;
+}
+.ação img{
+
+  width:100%;
+  height:450px;
+}
+
+@media(max-widht:600px){
+
+  h1{
+font-size:19px;
+    
+  }
+}
